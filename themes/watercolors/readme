@@ -1,0 +1,51 @@
+#kOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOkkkkkkkkOOOkkOOOOOkkkkkkkkkkkkkkkkk
+#OkOOOOOOOOOOOOO00OOOOOOOOOOOOOOOOOOOOOOOOOkkkOOOOOOOOOOOOOkx:xx;xOO00OOO00O
+#O000OOOOOOOOOOOOOOOOOOkkkOOOOOOOOOkkkkOOOOOOOOOOOOOOOOOOOOO:.:c.cOO00x00000
+#KKKKKKKKKK000000000000000000000000OOOOOOOOOOOO0000000000000,.....o00,.,lxx0
+#KKKKKKKKKKKKXXXXKKKKKKKKKKKKKKKKKK0000000000000ddddKKKKKKKKl',............x
+#KKKKKKKKKkKKKKKKKKKKKKKKKKKKKK000O00000000000xl....cdKKKKKKc.,............x
+#0000KKKKO.k00000000000000000OOOOxcOOOOOOOOO00o......:k00OOOc'...'.........d
+#000O0Odk:.,x00kOO000000OOOOOOOOk''lOOOOOOxxOOl........kkkkkc..............o
+#OOOkOk......';;cckkOOkkkkkkkkkkc...xdOOOO;dkkl........OOOkkl...'..'.......l
+#kkkkdl..........ckkkkkkkkkkkkk;...'..:lkc.............kkkkkl.......'......c
+#xxxxc...........ckkkkkkkkxxxxk..'.'...l,...'..........loxlxc..............c
+#ddxxc'..........:ddxxdoccclold'.....'...................l.::........'..,..'
+#ddd;''..........;ccll;'''....,..................................WATERCOLORS
+#,;;............................................leftwm.theme.by.nathan.leigh
+#....................................'...................www.nathanleigh.net
+
+## Requirements:
+
+# polybar
+https://github.com/polybar/polybar
+
+# compton
+https://github.com/chjj/compton
+
+# xwinwrap
+https://github.com/ujjwal96/xwinwrap
+
+# mpv
+https://mpv.io/
+
+# mpc
+https://github.com/MusicPlayerDaemon/mpc
+
+# mpd
+https://github.com/MusicPlayerDaemon/MPD
+
+## Fonts
+
+# Font Awesome
+https://fontawesome.com/
+
+# Luculent
+http://eastfarthing.com/luculent/
+
+## Installation:
+
+mkdir ~/.config/leftwm/themes/watercolors
+cp -R ./watercolors ~/.config/leftwm/themes/watercolors
+ln -s ~/.config/leftwm/themes/watercolors ~/.config/leftwm/themes/current
+mv ~/.Xresources ~/.Xresources.old
+pkill leftwm
