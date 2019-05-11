@@ -1,0 +1,74 @@
+!kOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOkkkkkkkkOOOkkOOOOOkkkkkkkkkkkkkkkkk
+!OkOOOOOOOOOOOOO00OOOOOOOOOOOOOOOOOOOOOOOOOkkkOOOOOOOOOOOOOkx:xx;xOO00OOO00O
+!O000OOOOOOOOOOOOOOOOOOkkkOOOOOOOOOkkkkOOOOOOOOOOOOOOOOOOOOO:.:c.cOO00x00000
+!KKKKKKKKKK000000000000000000000000OOOOOOOOOOOO0000000000000,.....o00,.,lxx0
+!KKKKKKKKKKKKXXXXKKKKKKKKKKKKKKKKKK0000000000000ddddKKKKKKKKl',............x
+!KKKKKKKKKkKKKKKKKKKKKKKKKKKKKK000O00000000000xl....cdKKKKKKc.,............x
+!0000KKKKO.k00000000000000000OOOOxcOOOOOOOOO00o......:k00OOOc'...'.........d
+!000O0Odk:.,x00kOO000000OOOOOOOOk''lOOOOOOxxOOl........kkkkkc..............o
+!OOOkOk......';;cckkOOkkkkkkkkkkc...xdOOOO;dkkl........OOOkkl...'..'.......l
+!kkkkdl..........ckkkkkkkkkkkkk;...'..:lkc.............kkkkkl.......'......c
+!xxxxc...........ckkkkkkkkxxxxk..'.'...l,...'..........loxlxc..............c
+!ddxxc'..........:ddxxdoccclold'.....'...................l.::........'..,..'
+!ddd;''..........;ccll;'''....,..................................WATERCOLORS
+!,;;............................................leftwm.theme.by.nathan.leigh
+!....................................'...................www.nathanleigh.net
+
+
+!! Colorscheme
+
+! special
+*.foreground:   #eeeeee
+*.background:   #000000
+*.cursorColor:  #eeeeee
+
+! black
+*.color0:       #20201c
+*.color8:       #3c3b2f
+
+! red
+*.color1:       #e5b688
+*.color9:       #debd90
+
+! green
+*.color2:       #7c8f5e
+*.color10:      #607d55
+
+! yellow
+*.color3:       #ecd391
+*.color11:      #e7d8ad
+
+! blue
+*.color4:       #73aab7
+*.color12:      #b4d0cb
+
+! magenta
+*.color5:       #bc9071
+*.color13:      #eac08b
+
+! cyan
+*.color6:       #77adbe
+*.color14:      #99bfc0
+
+! white
+*.color7:       #eeeeee
+*.color15:      #cccccc
+
+!! URxvt Appearance
+URxvt.font: xft:Luculent:pixelsize=13
+URxvt.boldFont: xft:Luculent:pixelsize=13:weight=bold
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.perl-ext-common: default,clipboard
+URxvt.clipboard.autocopy: true
