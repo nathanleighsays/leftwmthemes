@@ -23,6 +23,8 @@ fi
 
 echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
+xrdb -merge $SCRIPTPATH/Xresources
+
 #boot polybar based on the number of monitors found
 if [ -x "$(command -v polybar)" ]; then
   pkill polybar
