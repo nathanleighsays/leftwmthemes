@@ -48,4 +48,4 @@ mkdir ~/.config/leftwm/themes/watercolors
 cp -R ./watercolors ~/.config/leftwm/themes/watercolors
 ln -s ~/.config/leftwm/themes/watercolors ~/.config/leftwm/themes/current
 mv ~/.Xresources ~/.Xresources.old
-pkill leftwm
+pkill leftwm-worker
