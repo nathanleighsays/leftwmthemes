@@ -1,0 +1,3 @@
+#replace the line in your bashrc that starts with "PS1" with this
+
+PS1="\[\e[42m\] \u \[\e[m\]\[\e[46m\] \w \[\e[m\] "
