@@ -6,20 +6,20 @@ www.nathanleigh.net
 
 # Requirements:
 
-## polybar
+polybar
 https://github.com/polybar/polybar
-## compton
+compton
 https://github.com/chjj/compton
-## mpc
+mpc
 https://github.com/MusicPlayerDaemon/mpc
-## mpd
+mpd
 https://github.com/MusicPlayerDaemon/MPD
 
 # Fonts
 
-## font awesome
+font awesome
 https://fontawesome.com/
-## string literal
+string literal
 https://fonts2u.com/string-literal-437-medium.font
 
 # ./extras/
