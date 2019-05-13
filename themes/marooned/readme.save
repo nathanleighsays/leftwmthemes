@@ -1,0 +1,61 @@
+llloolllloooooooooooooooodooddooddddoddddddddoooloddddddddddoodddoooooooooooolloooddoddo
+ooooooooooloooddoooooooddoooddooooooooooooool:::clclloddddddooollllccllcccllllllllllloo
+oooodoooolooooooddoooddddddododooloooooooolll;..         .,lddddddoollc:::::::cccclccccccl
+lollllllllooooooddddddoddddddoool:;'..';clc,.               .;odddddddollc:::::::::c::c::c
+ollllllllllllloooooooddddoooool,.        ..                    'lddddddoolccc::::::::;;::;
+:cllccccccclloooolooodoooooooo.         ..                       .:lldddoooollooooolcc::::
+lllcclllcllloloolllloollollool,       ..                          .c:;lllclllllllllolooooo
+cllolllollllcccllclolllloollolc:.   .                              'ccccc:ccc::cc:cccccccl
+:llllcclccc::c:::cccccloololllllc.                                  ':;:cc;c:::::c:::::ccc
+ccllllcccl::clcc::::c:cccloooooool.  ..'',,,'..                      .;lllcllllllllolloddo
+c:c:ccclcccc::;ccl::::ccccclloooooo'';,'...'',,'..                    .;::;:::::;:looooool
+c:::ccc::::::::::::;;::::;::cc:clcc::,''.';,';;,'..                .';,,;;,;;;;;,;;:c:looo
+lllcc;::::c::::;;;:;:;;;::;,:;;,;::;,,,...;;;;;,''.               .',,,,;,,,,,,,,;,,;:cclc
+lclccc:::;:cccc::;;:::::::,,,,. ..'';;;;;;;:::,'..              ..,'''',''..''';,,,,:;;:cc
+cclcclllc:c:::;::::::;,;;,,,....   .,;;;;::::;,... ...         .':;,''','''.',''''',,,',;:
+lllolclcccclccc:::;;,,,'''....''... .....'',''...... ..       ..cc:;;;''..'.....''...',,,;
+lclollclcc:cc:;:;;;;;,'..                  ...',....  ..     ..,clcccc;,,''''..''..'',;;;:
+lolooolllccccccccc;,'...                 . ...',...   ..    ..',,;c::c:;;,'''''',,,,;;::,'
+clooolllloooollllcc:;;;'...             .. .'.,'....   . ..',,,;:c:::;::;;,,,,;;;;::;,,,,,
+;lclllcollooolllcocllc:;;;'....... .   ... .............,,,,,;;;:cccc:c:::;::::;:;::;;,;;;
+:c:::::cclllll:clcclool::ccclcc:,.. .   .. ....',;:::;:;::;;;;c:,:;,,;:;;;:::::;;;',;,:;;;
+;:;,;::c:cccc:clcllclllclllc:lclcc:;;:l:,''.';::::c::;:;::;:,:cc:;;,;,;;c;:;:::::;;;;;;;::
+::c::::c:c:c::cc:cl::clclcclcllllloooollloolollllllccc:::ccc;:c:;;:::cc::::;;::;;;;:::c:c:
+;;;::;;;;:::::c:::c:clcccc:cclllc:lllloldooloollllcccccl::c:ccc:cccc:ccccc::c:cc:;c:::::cc
+:c:cc:;',::;;;;;c:::lc::lcclllcc:ccclolodooodololo:lcclllocc:lcl:;:l::c:;:cccccc:cc:::::::
+
+## Requirements:
+
+# polybar
+https://github.com/polybar/polybar
+
+# compton
+https://github.com/chjj/compton
+
+# mpc
+https://github.com/MusicPlayerDaemon/mpc
+
+# mpd
+https://github.com/MusicPlayerDaemon/MPD
+
+## Fonts
+
+# Font Awesome
+https://fontawesome.com/
+
+# String Literal (Original)
+https://fonts2u.com/string-literal-437-medium.font
+
+## /extras/
+
+GTK Marooned Theme
+QT Marooned Colorscheme
+String Literal 439 (Modified version of String Literal for use with Marooned)
+
+## Installation:
+
+mkdir ~/.config/leftwm/themes/marooned
+cp -R ./marooned ~/.config/leftwm/themes/marooned
+ln -s ~/.config/leftwm/themes/marooned ~/.config/leftwm/themes/current
+mv ~/.Xresources ~/.Xresources.old
+pkill leftwm-worker

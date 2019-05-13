@@ -1,0 +1,56 @@
+!! Colorscheme
+
+! special
+*.foreground:   #b0c7e7
+*.background:   #17212b
+*.cursorColor:  #b0c7e7
+
+! black
+*.color0:       #17212b
+*.color8:       #080d13
+
+! red
+*.color1:       #76546f
+*.color9:       #76546f
+
+! green
+*.color2:       #604965
+*.color10:      #604965
+
+! yellow
+*.color3:       #8f7222
+*.color11:      #aa9c53
+
+! blue
+*.color4:       #6594c2
+*.color12:      #4c6a90
+
+! magenta
+*.color5:       #5A2F3C
+*.color13:      #86495D
+
+! cyan
+*.color6:       #657da1
+*.color14:      #798da6
+
+! white
+*.color7:       #b0c7e7
+*.color15:      #93a0a9
+
+!! URxvt Appearance
+URxvt.font: xft:String Literal 439:pixelsize=12
+URxvt.boldFont: xft:String Literal 439:pixelsize=12:weight=bold
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 12
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.perl-ext-common: default,clipboard
+URxvt.clipboard.autocopy: true
