@@ -4,36 +4,36 @@ MAROONED
 a leftwm theme by Nathan Leigh
 www.nathanleigh.net
 
-## Requirements:
+# Requirements:
 
-# polybar
+## polybar
 https://github.com/polybar/polybar
 
-# compton
+## compton
 https://github.com/chjj/compton
 
-# mpc
+## mpc
 https://github.com/MusicPlayerDaemon/mpc
 
-# mpd
+## mpd
 https://github.com/MusicPlayerDaemon/MPD
 
-## Fonts
+# Fonts
 
-# font awesome
+## font awesome
 https://fontawesome.com/
 
-# string literal
+## string literal
 https://fonts2u.com/string-literal-437-medium.font
 
-## ./extras/
+# ./extras/
 
 GTK Marooned Theme
 Numix Marooned Icons
 QT Marooned Color Scheme
 String Literal 439 (Modified String Literal 437 for use with Marooned)
 
-## Installation:
+# Installation:
 
 mkdir ~/.config/leftwm/themes/marooned
 cp -R ./marooned ~/.config/leftwm/themes/marooned
